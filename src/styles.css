@@ -1,1 +1,83 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');   
+@import 'aos/dist/aos.css';
+
+@font-face {
+  font-family: 'CasperB'; /* Le damos un nombre simple */
+  src: url('/assets/fonts/Casper_B.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CasperR'; /* Le damos un nombre simple */
+  src: url('/assets/fonts/Casper_R.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter';
+  src: url('/assets/fonts/Bitter/static/Bitter-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitter-Regular';
+  src: url('/assets/fonts/Bitter/static/Bitter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --color-primary: #1a1a1a;
+  --color-text: #333;
+  --color-text-light: #f4f4f4;
+  --color-text-dark: #1a1a1a;
+  --color-white: #ffffff;
+  --color-accent: #b99a7e;
+  --color-dropdown-bg: #3A4243;
+  --color-grebt: #71787D;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--color-white);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 2.5rem;
+  background-color: var(--color-grebt);
+  color: var(--color-white);
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--color-text-light);
+  color: var(--color-grebt);
+}

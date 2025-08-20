@@ -1,0 +1,324 @@
+[
+  {
+    "id": 1,
+    "slug": "plantillas-convencionales",
+    "nombre": "Plantillas Convencionales",
+    "descripcion": "Dispositivo ortopédico rígido o semirrígido que se utiliza para inmovilizar y posicionar la mano y los dedos.",
+    "materiales": "Odena, eva flex, eva dura, construcsol, plastazote, produaire.",
+    "peso" : "26g-150g / par",
+    "vidautil" : "8 meses",
+    "cuidados" : "Limpiar por ambas caras con alcohol isopropílico y un paño exclusivo para lasplantillas.",
+    "categoria": "Plantillas",
+    "parteCuerpo": "Inferiror",
+    "subParteCuerpo": "",
+    
+    "imagenUrl": "assets/images/products/PlantillasConvencionales.png"
+  },
+  {
+    "id": 2,
+    "slug": "plantillas-silicona",
+    "nombre": "Plantillas Silicona",
+    "descripcion": " Dispositivo ortopédico diseñado para usar dentro del calzado con el objetivo de corregir, aliviar o mejorar alteraciones biomecánicas del pie, así como para proporcionar soporte, amortiguación o redistribución del peso corporal.",
+    "materiales": "Silicona",
+    "peso" : "80g-250g / par",
+    "vidautil" : "18 meses",
+    "cuidados" : "Lavar por ambas caras con agua fría y jabón suave neutro un paño exclusivo para las plantillas.",
+    "categoria": "Plantillas",
+    "parteCuerpo": "Inferiror",
+    "subParteCuerpo": "",
+    
+    "imagenUrl": "assets/images/products/PlantillasSilicona.png"
+  },
+  {
+    "id": 3,
+    "slug": "plantillas-UCBL",
+    "nombre": "Plantillas UCBL",
+    "descripcion": "Ortesis plantar rígida, diseñada para controlar y corregir deformidades del pie mediante una sujeción precisa del talón y del arco escafoideo, proporcionando una corrección estructural más agresiva que una plantilla convencional.",
+    "materiales": "Polipropileno, construcsol.",
+    "peso" : "40g-100g c/u",
+    "vidautil" : "15 meses",
+    "cuidados" : "Limpiar por ambas caras con alcohol isopropílico y un paño exclusivo para lasplantillas.",
+    "categoria": "Plantillas",
+    "parteCuerpo": "Inferiror",
+    "subParteCuerpo": "",
+    
+    "imagenUrl": "assets/images/products/PlantillasUCBL.png"
+  },
+  {
+    "id": 4,
+    "slug": " ortesistobillopie",
+    "nombre": " Ortesis Tobillo Pie",
+    "descripcion": "Dispositivo ortopédico externo que se usa desde la pantorrilla hasta el pie, diseñado para controlar el movimiento del tobillo y del pie, brindar soporte estructural y mejorar la funcionalidad de la marcha.",
+    "materiales": "Polipropileno, construcsol, velcro, remaches.",
+    "peso" : "70g-450g c/u",
+    "vidautil" : "10 meses",
+    "cuidados" : "Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Órtesis",
+    "parteCuerpo": "Inferiror",
+    "subParteCuerpo": "Pies",
+    
+    "imagenUrl": "assets/images/products/ortesistobillopie.png",
+    "imagenUrl2": "assets/images/products/ortesistobillopie1.png"
+  },
+  {
+    "id": 5,
+    "slug": "antigenuvalgovaro",
+    "nombre": "Antigenu Valgo / Varo",
+    "descripcion": "Órtesis externa diseñada para corregir o controlar la desviación en valgo/varo de la rodilla.",
+    "materiales": "Polipropileno, construcsol, velcro, remaches, tensor.",
+    "peso" : "250g-500g c/u",
+    "vidautil" : "12 meses",
+    "cuidados" : "Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Órtesis",
+    "parteCuerpo": "Inferiror",
+    "subParteCuerpo": "Pies",
+    
+    "imagenUrl": "assets/images/products/antigenuvalgovaro.png"
+  },
+  {
+    "id": 6,
+    "slug": "Ortesissedestación",
+    "nombre": "Ortesis de sedestación",
+    "descripcion": "Dispositivo ortopédico externo diseñado para brindar soporte, estabilidad postural y alineación adecuada del tronco y pelvis mientras la persona está sentada.",
+    "materiales": " Polipropileno, construcsol, velcro, remaches, platina de aluminio, hebillas.",
+    "peso" : "500g-1500g",
+    "vidautil" : "12 meses",
+    "cuidados" : "Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Órtesis",
+    "parteCuerpo": "Lumbar",
+    "subParteCuerpo": "Lumbar",
+    
+    "imagenUrl": "assets/images/products/Ortesissedestacion.png",
+    "imagenUrl2": "assets/images/products/Ortesissedestacion1.png"
+  },
+  {
+    "id": 7,
+    "slug": "denis-brown",
+    "nombre": "Denis Brown",
+    "descripcion": "Dispositivo ortopédico infantil usado para tratamiento de deformidades en los pies, consiste en una barra plástica que conecta el calzado ortopédico posicionado en abducción",
+    "materiales": "Polipropileno, construcsol, velcro, remaches, reata, hebillas plásticas.",
+    "peso" : "230g-350g",
+    "vidautil" : "12 meses",
+    "cuidados" : "Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Órtesis",
+    "parteCuerpo": "Inferiror",
+    "subParteCuerpo": "Pies",
+    
+    "imagenUrl": "assets/images/products/DenisBrown.png"
+  },
+  {
+    "id": 8,
+    "slug": "Twister",
+    "nombre": "Twister",
+    "descripcion": "Dispositivo ortopédico externo que se utiliza para corregir o controlar rotaciones anómalas de las extremidades inferiores.",
+    "materiales": "Polipropileno, construcsol, velcro, remaches, platina de aluminio, guaya, tubo de vinilo, reata.",
+    "peso" : "250g-500g",
+    "vidautil" : "12 meses",
+    "cuidados" : "Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Órtesis",
+    "parteCuerpo": "Inferiror",
+    "subParteCuerpo": "Piernas",
+    
+    "imagenUrl": "assets/images/products/Twister.png"
+  },
+  {
+    "id": 9,
+    "slug": "H-KAFO",
+    "nombre": "H-KAFO (Hip-Knee-Ankle-Foot Orthosis)",
+    "descripcion": " Dispositivo ortopédico externo largo diseñado para controlar o estabilizar completamente la extremidad inferior y brindar un soporte en cadera .",
+    "materiales": "Polipropileno, construcsol, velcro, remaches, cuero, articulación monoaxial en cadera y rodilla (bloqueo por anillos, traba suiza o eje retrasado).",
+    "peso" : "500g-800g c/u",
+    "vidautil" : "12 meses",
+    "cuidados" : "Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Órtesis",
+    "parteCuerpo": "Inferiror",
+    "subParteCuerpo": "Piernas",
+    
+    "imagenUrl": "assets/images/products/H-KAFO.png"
+  },
+  {
+    "id": 10,
+    "slug": "arnes-pavlick",
+    "nombre": " Arnés de Pavlick",
+    "descripcion": "Dispositivo ortopédico infantil utilizado para el tratamiento de la displasia del desarrollo de la cadera en bebés. Su función principal es mantener las caderas en una posición de flexión y abducción, lo que permite que la cabeza del fémur se mantenga correctamente dentro del acetábulo (la cavidad de la cadera), favoreciendo un desarrollo normal.",
+    "materiales": "Reata, velcro, tela antifluido, acolchado interno.",
+    "peso" : "150g",
+    "vidautil" : "12 meses",
+    "cuidados" : "Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Órtesis",
+    "parteCuerpo": "Lumbar",
+    "subParteCuerpo": "Piernas",
+    
+    "imagenUrl": "assets/images/products/Pavlick.png"
+  },
+  {
+    "id": 11,
+    "slug": "ferulamilgram",
+    "nombre": "Ferula de Milgram",
+    "descripcion": "Dispositivo ortopédico infantil diseñado para mantener las caderas en una posición adecuada (generalmente de abducción y flexión) en lactantes con displasia del desarrollo de la cadera. Su función principal es corregir o estabilizar la posición de las caderas durante el crecimiento.",
+    "materiales": "Polipropileno, construcsol, velcro, remaches, reata, hebillas plasticas.",
+    "peso" : "230g-350g",
+    "vidautil" : "12 meses",
+    "cuidados" : "Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Órtesis",
+    "parteCuerpo": "Lumbar",
+    "subParteCuerpo": "Piernas",
+    
+    "imagenUrl": "assets/images/products/Milgram.png"
+  },
+  {
+    "id": 12,
+    "slug": "KAFO",
+    "nombre": "KAFO (Knee-Ankle-Foot Orthosis)",
+    "descripcion": "Dispositivo ortopédico externo largo diseñado para controlar, estabilizar o reemplazar la función de la articulación de la rodilla, tobillo y pie.",
+    "materiales": "Polipropileno, construcsol, velcro, remaches, cuero, articulación monoaxial de rodilla (bloqueo por anillos, traba suiza o eje retrasado).",
+    "peso" : "250g-500g c/u",
+    "vidautil" : "12 meses",
+    "cuidados" : " Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Órtesis",
+    "parteCuerpo": "Inferiror",
+    "subParteCuerpo": "Piernas",
+    
+    "imagenUrl": "assets/images/products/KAFO.png",
+    "imagenUrl2": "assets/images/products/KAFO2.png"
+  },
+  {
+    "id": 13,
+    "slug": "brace-sarmiento",
+    "nombre": "Brace de Sarmiento",
+    "descripcion": "Dispositivo órtesico utilizado para el tratamiento de fracturas diafisarias de huesos largos, especialmente del húmero y la tibia, que permite la consolidación ósea mientras se mantiene cierto grado de movilidad funcional del miembro.",
+    "materiales": "Polipropileno, construcsol, velcro, remaches.",
+    "peso" : "150g-300g",
+    "vidautil" : "12 meses",
+    "cuidados" : " Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Órtesis",
+    "parteCuerpo": "Superior",
+    "subParteCuerpo": "Manos",
+    
+    "imagenUrl": "assets/images/products/BraceSarmiento.png"
+  },
+  {
+    "id": 14,
+    "slug": "ferulaposiciónfuncional",
+    "nombre": "Férula de mano en posición funcional",
+    "descripcion": "Dispositivo ortopédico diseñado para mantener la mano, la muñeca y los dedos en una posición funcional o de reposo, es decir, una posición que facilita el uso de la mano y previene deformidades.",
+    "materiales": "Polietileno, construcsol, velcro, remache.",
+    "peso" : "200g-250g",
+    "vidautil" : "12 meses",
+    "cuidados" : "Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Órtesis",
+    "parteCuerpo": "Superior",
+    "subParteCuerpo": "Manos",
+    
+    "imagenUrl": "assets/images/products/Férulademanoenposición.png",
+    "imagenUrl2": "assets/images/products/Férulademanoenposición1.png"
+  },
+  {
+    "id": 15,
+    "slug": "ferulatipopalmeta",
+    "nombre": "Férula de mano Tipo Palmeta",
+    "descripcion": " Dispositivo ortopédico rígido o semirrígido que se utiliza para inmovilizar y posicionar la mano y los dedos en una posición funcional o de reposo, con el objetivo de prevenir contracturas, corregir deformidades leves, o proteger estructuras lesionadas.",
+    "materiales": " Polietileno, construcsol, velcro, remache.",
+    "peso" : "200g-250g",
+    "vidautil" : "12 meses",
+    "cuidados" : "Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Órtesis",
+    "parteCuerpo": "Superior",
+    "subParteCuerpo": "Manos",
+    
+    "imagenUrl": "assets/images/products/ferulatipopalmeta.png"
+  },
+  {
+    "id": 16,
+    "slug": "TLSObivalvado",
+    "nombre": "Corset TLSO Bivalvado",
+    "descripcion": "Dispositivo ortopédico rígido compuesto por dos valvas (piezas) que se ajustan alrededor del tronco del paciente, con sistemas de cierre con correas  y que tiene como finalidad estabilizar, inmovilizar o corregir deformidades de la columna vertebral o del tronco.",
+    "materiales": "Polipropileno, construcsol, velcro, remaches, reata, hebillas plásticas, produaire.",
+    "peso" : " 400g-600g",
+    "vidautil" : "12 meses",
+    "cuidados" : " Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Órtesis",
+    "parteCuerpo": "Lumbar",
+    "subParteCuerpo": "",
+    
+    "imagenUrl": "assets/images/products/TLSObivalvado.png",
+    "imagenUrl2": "assets/images/products/TLSObivalvado2.png"
+  },
+  {
+    "id": 17,
+    "slug": "CorsetTLSO",
+    "nombre": "Corset TLSO",
+    "descripcion": "Dispositivo ortopédico rígido diseñado para inmovilizar, estabilizar y alinear la columna torácica, lumbar y sacra",
+    "materiales": "Polipropileno, construcsol, velcro, remaches, reata, hebillas plásticas.",
+    "peso" : "230g-350g",
+    "vidautil" : "12 meses",
+    "cuidados" : "Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Órtesis",
+    "parteCuerpo": "Lumbar",
+    "subParteCuerpo": "",
+    
+    "imagenUrl": "assets/images/products/CorsetTLSO.png"
+  },
+  {
+    "id": 18,
+    "slug": "CorsetCruciforme",
+    "nombre": "Corset Cruciforme",
+    "descripcion": "Dispositivo ortopédico rígido diseñado para inmovilizar y estabilizar la columna torácica y lumbar. Se utiliza en casos de fracturas vertebrales, osteoporosis severa, cifosis, o postoperatorios de columna.",
+    "materiales": "Platina de aluminio, polipropileno, construcsol, remaches, hebillas plásticas.",
+    "peso" : "150g-300g",
+    "vidautil" : "12 meses",
+    "cuidados" : " Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Órtesis",
+    "parteCuerpo": "Lumbar",
+    "subParteCuerpo": "",
+    
+    "imagenUrl": "assets/images/products/CorsetCruciforme.png",
+    "imagenUrl2": "assets/images/products/CorsetCruciforme2.png"
+  },
+  {
+    "id": 19,
+    "slug": "Prótesisparcialpies",
+    "nombre": "Prótesis Parcial de Pie",
+    "descripcion": "Dispositivo protésico externo diseñado para reemplazar una parte del pie que ha sido amputada, permitiendo restaurar parcialmente la función, la estética y la capacidad de marcha del paciente",
+    "materiales": "Polipropileno, fibra de carbono, vidrio o kevlan, y/o silicona, construcsol, velcro, remaches, cuero, eva dura, media stockineta, resina.",
+    "peso" : "150g-800g",
+    "vidautil" : "12 meses",
+    "cuidados" : " Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Prótesis",
+    "parteCuerpo": "Inferiror",
+    "subParteCuerpo": "Pies",
+    
+    "imagenUrl": "assets/images/products/Prótesisparcialpies.png",
+    "imagenUrl2": "assets/images/products/Prótesisparcialpies2.png"
+  },
+  {
+    "id": 20,
+    "slug": "protesisransfemoral",
+    "nombre": "Prótesis Transfemoral",
+    "descripcion": "Dispositivo protésico externo que reemplaza la extremidad inferior por encima de la rodilla. Su finalidad es restaurar la función de la pierna amputada, permitiendo al usuario caminar, mantenerse de pie y realizar actividades cotidianas.",
+    "materiales": " Fibra de carbono, vidrio y/o kevlan, media stockineta, resina, válvula de vacío, sistema de pin y lanzadera, rodilla monocentrica, rodilla policentrica (mecánica o hidráulica), pylon en aluminio, adaptadores de tubo, pie, cosmesis en espuma.",
+    "peso" : "2500g-3500g.",
+    "vidautil" : "12 meses",
+    "cuidados" : "Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Prótesis",
+    "parteCuerpo": "Inferiror",
+    "subParteCuerpo": "Piernas",
+    
+    "imagenUrl": "assets/images/products/protesisransfemoral.png"
+  },
+  {
+    "id": 21,
+    "slug": "Ortoprotesis",
+    "nombre": "Ortoprótesis",
+    "descripcion": "Dispositivo médico que combina características de una prótesis y una órtesis, diseñado para reemplazar una parte del cuerpo ausente (como una extremidad amputada) y, al mismo tiempo, brindar soporte, corrección o asistencia funcional a estructuras corporales debilitadas o afectadas.",
+    "materiales": "Polipropileno, fibra de carbono, vidrio y/o kevlan, media stockineta, resina, valvula de vacio, sistema de pin y lanzadera, rodilla monocentrica, rodilla policentrica (mecanica o hidraulica), pylon en aluminio, adaptadores de tubo, pie.",
+    "peso" : "2500g-3500g.",
+    "vidautil" : "12 meses",
+    "cuidados" : "Limpiar por dentro y por fuera con alcohol isopropílico y un paño exclusivo para la ortesis.",
+    "categoria": "Prótesis",
+    "parteCuerpo": "Inferiror",
+    "subParteCuerpo": "Piernas",
+    
+    "imagenUrl": "assets/images/products/Ortoprotesis.png"
+  }
+]

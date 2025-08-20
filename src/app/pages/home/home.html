@@ -1,0 +1,89 @@
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>Soluciones Ortopédicas</h1>
+    <p class="subtitle">Para una Vida Plena</p>
+    <a routerLink="/productos" [queryParams]="{ categoria: 'Ver Todo' }" class="cta-button">
+      Todas nuestras soluciones
+    </a>
+  </div>
+</section>
+
+<section class="value-prop" data-aos="fade-up">
+  <p>Diseñamos y fabricamos dispositivos personalizados bajo prescripción médica para mejorar tu bienestar y movilidad.</p>
+</section>
+
+<section class="trust-section" data-aos="fade-up">
+  <div class="trust-container">
+    <div class="badges-container">
+      <div class="badge">
+        <img src="assets/icons/calendar.png" alt="Icono de Calendario">
+        <h3>Desde 1996</h3>
+        <p>Más de 25 años de experiencia y dedicación.</p>
+      </div>
+      <div class="badge">
+        <img src="assets/icons/quality.png" alt="Icono de Certificado INVIMA">
+        <h3>Certificados por INVIMA</h3>
+        <p>Recertificados en 2023, garantizando los más altos estándares.</p>
+      </div>
+      <div class="badge">
+        <img src="assets/icons/avatar.png" alt="Icono de Personalización">
+        <h3>Totalmente Personalizado</h3>
+        <p>Soluciones hechas a la medida de cada paciente y necesidad.</p>
+      </div>
+    </div>
+
+    <div class="image-collage">
+      <img src="assets/images/collage.jpg" alt="Collage de niños sonriendo">
+    </div>
+  </div>
+</section>
+
+<section class="solutions-title">
+  <div class="container">
+    <h2>Nuestras Soluciones</h2>
+  </div>
+</section>
+
+<section class="products-section">
+  <div class="container products-grid">
+    <div *ngIf="plantillaExample" class="product-card-container">
+      <a [routerLink]="['/productos']" [queryParams]="{ categoria: 'Plantillas' }" class="product-card">
+        <h4>Plantillas</h4>
+        <div class="image-container">
+          <img [src]="plantillaExample.imagenUrl" [alt]="plantillaExample.nombre">
+        </div>
+        <p class="description">{{ plantillaExample.descripcion }}</p>
+        <span class="see-more">Ver Productos</span>
+      </a>
+    </div>
+
+    <div *ngIf="ortesisExample" class="product-card-container">
+      <a [routerLink]="['/productos']" [queryParams]="{ categoria: 'Órtesis' }" class="product-card">
+        <h4>Órtesis</h4>
+        <div class="image-container">
+          <img [src]="ortesisExample.imagenUrl" [alt]="ortesisExample.nombre">
+        </div>
+        <p class="description">{{ ortesisExample.descripcion }}</p>
+        <span class="see-more">Ver Productos</span>
+      </a>
+    </div>
+
+    <div *ngIf="protesisExample" class="product-card-container">
+      <a [routerLink]="['/productos']" [queryParams]="{ categoria: 'Prótesis' }" class="product-card">
+        <h4>Prótesis</h4>
+        <div class="image-container">
+          <img [src]="protesisExample.imagenUrl" [alt]="protesisExample.nombre">
+        </div>
+        <p class="description">{{ protesisExample.descripcion }}</p>
+        <span class="see-more">Ver Productos</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="all-solutions-link">
+    <a routerLink="/productos" [queryParams]="{ categoria: 'Ver Todo' }" class="cta-button">
+      Todas nuestras soluciones
+    </a>
+  </div>
+</section>

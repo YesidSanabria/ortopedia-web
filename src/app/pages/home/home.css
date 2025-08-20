@@ -1,0 +1,238 @@
+:host {
+  --hero-title-color: #f07c3a;
+  --cta-orange: #159D7C;
+  --light-text: #ffffff;
+  --dark-text: #333;
+  --value-prop-bg: #fdf5ec;
+}
+
+
+.hero {
+  position: relative;
+  height: 70vh;
+  background-image: url('/assets/images/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--light-text);
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--hero-title-color);
+  margin: 0;
+}
+
+.hero .subtitle {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero .cta-button {
+  background-color: var(--cta-orange);
+  color: var(--light-text);
+  border: none;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero .cta-button:hover {
+  background-color: #11745b;
+}
+
+.value-prop {
+  background-color: var(--value-prop-bg);
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--dark-text);
+  line-height: 1.6;
+}
+
+/* --- Estilos de la Sección de Confianza --- */
+.trust-section {
+  background-color: #f8f9fa;
+  padding: 0 0;
+  overflow: hidden;
+}
+
+.trust-container {
+  max-width: 1200px;
+  max-height: 500px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.badges-container {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  gap: 24px;
+}
+
+.badge {
+  text-align: center;
+  max-width: 220px;
+}
+
+.badge img {
+  height: 120px;
+  margin-bottom: 24px;
+}
+
+.badge h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.badge p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.image-collage img {
+  width: 280px;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* --- Estilos del Título de Soluciones --- */
+.solutions-title {
+  background-color: #fdf5ec; /* Color beige */
+  text-align: center;
+  padding: 48px 0;
+}
+
+.solutions-title h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+/* --- Estilos de la Sección de Productos/Categorías --- */
+.products-section {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.product-card-container {
+  display: flex;
+}
+
+.product-card {
+  background: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación */
+}
+
+/* Efecto Hover */
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.product-card h4 {
+  font-size: 1.5rem; /* Título de categoría más grande */
+  margin: 24px 16px 16px 16px;
+  color: #333;
+}
+
+.product-card .image-container {
+  padding: 20px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.product-card .description {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+  margin: 0 16px 24px 16px;
+  flex-grow: 1; 
+}
+
+.product-card .see-more {
+  color: #f07c3a;
+  font-weight: bold;
+  padding: 24px;
+  display: block;
+  border-top: 1px solid #eee;
+}
+
+/* Estilo para el botón de 'Todas nuestras soluciones' */
+.all-solutions-link {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.cta-button {
+  background-color: #159D7C;
+  color: white;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #107259; /* Verde más oscuro */
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}

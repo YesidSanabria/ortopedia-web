@@ -1,0 +1,146 @@
+/* --- Variables de Color --- */
+:host {
+  --primary-green: #159D7C; /* Verde similar al de la imagen */
+  --light-gray-bg: #ffffff;
+  --text-color: #333;
+  --light-text: #ffffff;
+}
+
+/* --- Estructura General --- */
+.site-header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* --- Barra Superior (Top Bar) --- */
+.top-bar {
+  background-color: var(--primary-green);
+  color: var(--light-text);
+  padding: 8px 0;
+  font-size: 0.9rem;
+}
+
+.top-bar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info, .social-info {
+  display: flex;
+  align-items: center;
+  gap: 24px; /* Espacio entre elementos de contacto */
+}
+
+.top-bar a {
+  color: var(--light-text);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+
+/* --- Barra de Navegación Principal --- */
+.main-nav {
+  background-color: var(--light-gray-bg);
+  padding: 16px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.logo-image img {
+  height: 50px; /* Ajusta la altura de tu logo si es una imagen */
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  padding-bottom: 5px;
+  font-size: 1rem;
+}
+
+/* Estilo para el enlace de la página activa */
+.nav-links a.active-link {
+  color: var(--primary-green);
+  border-bottom: 2px solid var(--primary-green);
+}
+
+/* Estilos del Desplegable */
+.dropdown {
+  position: relative;
+}
+.dropdown-toggle {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.arrow {
+  font-size: 0.6em;
+  transition: transform 0.3s;
+}
+.dropdown-toggle:hover .arrow {
+  transform: translateY(2px);
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 10px;
+  padding: 0.5rem 0;
+  list-style: none;
+  background-color: var(--color-text-light);
+  border-radius: 5px;
+  min-width: 180px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+.dropdown-menu li a {
+  display: block;
+  padding: 10px 20px;
+  color: #333; /* Define un color oscuro para asegurar que sea visible */
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.top-bar span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo{
+  height: 70px;
+}

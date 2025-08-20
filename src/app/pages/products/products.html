@@ -1,0 +1,53 @@
+<section class="page-hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+  <h1>Catálogo de Productos</h1>
+  </div>
+</section>
+
+<main class="container catalog-container">
+  <aside class="filters-sidebar">
+    <div class="filter-group">
+      <h4>Categorías</h4>
+      <select [(ngModel)]="selectedCategory" (ngModelChange)="onFilterChange()">
+        <option *ngFor="let cat of categorias" [value]="cat">{{ cat }}</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <h4>Parte del Cuerpo</h4>
+      <select [(ngModel)]="selectedParteCuerpo" (ngModelChange)="onFilterChange()">
+        <option *ngFor="let parte of partesCuerpo" [value]="parte">{{ parte }}</option>
+      </select>
+    </div>
+  </aside>
+
+  <section class="products-grid">
+    <div *ngIf="filteredProducts.length > 0; else noProducts">
+      <div class="grid-container">
+        <div *ngFor="let product of filteredProducts" class="product-card-container" (click)="openProductModal(product)">
+          <div class="product-card">
+            <div class="image-container">
+              <img [src]="product.imagenUrl" [alt]="product.nombre">
+            </div>
+            <h4>{{ product.nombre }}</h4>
+            <p class="description">{{ product.descripcion }}</p>
+            <span class="see-more">Ver Producto</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <ng-template #noProducts>
+      <div class="no-products-message">
+        <p>No se encontraron productos que coincidan con los filtros seleccionados.</p>
+      </div>
+    </ng-template>
+  </section>
+</main>
+
+<div class="modal-overlay" *ngIf="isModalOpen" (click)="closeProductModal()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <app-product-detail-view [product]="selectedProduct" (close)="closeProductModal()"></app-product-detail-view>
+  </div>
+</div>

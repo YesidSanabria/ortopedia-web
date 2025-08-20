@@ -1,0 +1,47 @@
+<div class="container" *ngIf="product">
+  <main class="product-content-card">
+    <header class="page-header">
+      <div class="title-group">
+        <h1>{{ product.nombre }}</h1>
+        <span class="category-tag">{{ product.categoria }}</span>
+      </div>
+      <button (click)="onClose()" class="back-link">← Volver al Catálogo</button>
+    </header>
+
+    <div class="product-layout">
+      <div class="product-image-container">
+        <img [src]="mainImageUrl" [alt]="product.nombre" class="main-image-display">
+        <div class="thumbnail-gallery" *ngIf="product.imagenUrl2">
+          <div class="thumbnail-item" (click)="changeMainImage(product.imagenUrl)" [class.active]="mainImageUrl === product.imagenUrl">
+            <img [src]="product.imagenUrl" [alt]="product.nombre + ' miniatura 1'">
+          </div>
+          <div class="thumbnail-item" (click)="changeMainImage(product.imagenUrl2)" [class.active]="mainImageUrl === product.imagenUrl2">
+            <img [src]="product.imagenUrl2" [alt]="product.nombre + ' miniatura 2'">
+          </div>
+        </div>
+      </div>
+
+      <div class="product-info">
+        <p class="description">{{ product.descripcion }}</p>
+        <div class="details-grid">
+          <div class="detail-item">
+            <h4>Materiales</h4>
+            <p>{{ product.materiales }}</p>
+          </div>
+          <div class="detail-item">
+            <h4>Cuidados</h4>
+            <p>{{ product.cuidados }}</p>
+          </div>
+          <div class="detail-item">
+            <h4>Peso</h4>
+            <p>{{ product.peso }}</p>
+          </div>
+          <div class="detail-item">
+            <h4>Vida Útil</h4>
+            <p>{{ product.vidautil }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>

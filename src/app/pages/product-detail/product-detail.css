@@ -1,0 +1,145 @@
+:host {
+  display: block;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.product-content-card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.title-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.page-header h1 {
+  font-size: 2.2rem;
+  margin: 0;
+  color: #333;
+}
+
+.category-tag {
+  background-color: #159d7c;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.back-link {
+  color: #159d7c;
+  text-decoration: none;
+  font-weight: bold;
+  white-space: nowrap;
+  transition: color 0.3s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.product-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.product-image-container {
+  background-color: #fdfdfd;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-image-display {
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.thumbnail-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.thumbnail-item {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 5px;
+  transition: border-color 0.3s ease;
+  overflow: hidden;
+}
+
+.thumbnail-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.thumbnail-item:hover {
+  border-color: #ccc;
+}
+
+.thumbnail-item.active {
+  border-color: #159d7c;
+  box-shadow: 0 0 5px rgba(82, 121, 111, 0.5);
+}
+
+.product-info .description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555;
+  padding-bottom: 24px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #eee;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.detail-item h4 {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.detail-item p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #666;
+}

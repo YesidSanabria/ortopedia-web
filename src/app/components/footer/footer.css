@@ -1,0 +1,79 @@
+:host {
+  --footer-bg: #159D7C;
+  --footer-text: #f0f0f0;
+  --footer-heading: #ffffff;
+}
+
+.site-footer {
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+  padding: 60px 0;
+  font-size: 0.95rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1.5fr 1.5fr; 
+  gap: 40px;
+}
+
+.footer-col h4 {
+  color: var(--footer-heading);
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+
+/* Columna 1: Logo y descripción */
+.footer-col.about .footer-logo {
+  width: 150px;;
+}
+
+.footer-col.about p {
+  line-height: 1.7;
+  max-width: 320px;
+}
+
+/* Estilos generales para listas y enlaces */
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+}
+
+.footer-col a {
+  color: var(--footer-text);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-col a:hover {
+  color: var(--footer-heading);
+}
+
+/* Estilos para el enlace de Instagram */
+.social-link {
+  display: flex;
+  align-items: center;
+}
+
+.social-link .icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor; 
+  margin-right: 10px;
+}

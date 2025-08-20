@@ -1,0 +1,52 @@
+<header class="site-header">
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div class="contact-info">
+        <a href="https://wa.me/573213212208">
+          <img src="assets/icons/phone.png" alt="Icono Teléfono" class="icon">
+            +57 321 321 2208
+         </a>
+        <a href="https://wa.me/573014561279">
+          <img src="assets/icons/phone.png" alt="Icono Teléfono" class="icon">
+          +57 3014561279
+        </a>
+        <a href="mailto:ctortopedico@gmail.com">
+          <img src="assets/icons/email.png" alt="Icono Email" class="icon">
+          ctortopedico@gmail.com
+        </a>
+      </div>
+      <div class="social-info">
+        <a href="https://www.instagram.com/centrotecnicortopedicosas" target="_blank">
+          <img src="assets/icons/instagram.png" alt="Icono Instagram" class="icon">
+          @centrotecnicortopedicosas
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <nav class="main-nav">
+    <div class="container nav-container">
+      <a routerLink="/" >
+          <img src="assets/images/logo.png" alt="Logo" class="logo">
+        </a>
+
+      <ul class="nav-links">
+        <li><a routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">Inicio</a></li>
+        <li class="dropdown">
+        <a routerLinkActive="active-link" (click)="toggleDropdown()" class="dropdown-toggle">
+          Productos <span class="arrow">▼</span>
+        </a>
+        <ul class="dropdown-menu" *ngIf="isDropdownOpen">
+          <li *ngFor="let category of categories">
+            <a [routerLink]="['/productos']" [queryParams]="{ categoria: category.value }" (click)="isDropdownOpen = false">
+              {{ category.name }}
+            </a>
+          </li>
+        </ul>
+      </li>
+        <li><a routerLink="/sobre-nosotros" routerLinkActive="active-link">Quienes Somos</a></li>
+        <li><a routerLink="/contacto" routerLinkActive="active-link">Contáctenos</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
