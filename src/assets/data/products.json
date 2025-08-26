@@ -210,8 +210,8 @@
     "parteCuerpo": "Superior",
     "subParteCuerpo": "Manos",
     
-    "imagenUrl": "assets/images/products/manoenposición.png",
-    "imagenUrl2": "assets/images/products/manoenposición1.png"
+    "imagenUrl": "assets/images/products/manoenposicion.png",
+    "imagenUrl2": "assets/images/products/manoenposicion1.png"
   },
   {
     "id": 15,
@@ -288,8 +288,8 @@
     "parteCuerpo": "Inferiror",
     "subParteCuerpo": "Pies",
     
-    "imagenUrl": "assets/images/products/Prótesisparcialpies.png",
-    "imagenUrl2": "assets/images/products/Prótesisparcialpies2.png"
+    "imagenUrl": "assets/images/products/Protesisparcialpies.png",
+    "imagenUrl2": "assets/images/products/Protesisparcialpies2.png"
   },
   {
     "id": 20,
