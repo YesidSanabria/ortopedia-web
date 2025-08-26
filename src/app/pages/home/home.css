@@ -6,7 +6,6 @@
   --value-prop-bg: #fdf5ec;
 }
 
-
 .hero {
   position: relative;
   height: 70vh;
@@ -32,6 +31,7 @@
 .hero-content {
   position: relative;
   z-index: 2;
+  padding: 0 20px;
 }
 
 .hero h1 {
@@ -59,10 +59,6 @@
   transition: background-color 0.3s ease;
 }
 
-.hero .cta-button:hover {
-  background-color: #11745b;
-}
-
 .value-prop {
   background-color: var(--value-prop-bg);
   padding: 40px 20px;
@@ -72,16 +68,15 @@
   line-height: 1.6;
 }
 
-/* --- Estilos de la Sección de Confianza --- */
+/* --- Sección de Confianza --- */
 .trust-section {
   background-color: #f8f9fa;
-  padding: 0 0;
+  padding: 80px 0;
   overflow: hidden;
 }
 
 .trust-container {
   max-width: 1200px;
-  max-height: 500px;
   margin: 0 auto;
   padding: 0 24px;
   display: flex;
@@ -127,9 +122,9 @@
   display: block;
 }
 
-/* --- Estilos del Título de Soluciones --- */
+/* --- Título de Soluciones --- */
 .solutions-title {
-  background-color: #fdf5ec; /* Color beige */
+  background-color: #fdf5ec;
   text-align: center;
   padding: 48px 0;
 }
@@ -140,7 +135,7 @@
   color: #333;
 }
 
-/* --- Estilos de la Sección de Productos/Categorías --- */
+/* --- Sección de Productos/Categorías --- */
 .products-section {
   background-color: #f8f9fa;
   padding: 80px 0;
@@ -167,17 +162,16 @@
   width: 100%;
   text-decoration: none;
   color: inherit;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Efecto Hover */
 .product-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }
 
 .product-card h4 {
-  font-size: 1.5rem; /* Título de categoría más grande */
+  font-size: 1.5rem;
   margin: 24px 16px 16px 16px;
   color: #333;
 }
@@ -212,7 +206,6 @@
   border-top: 1px solid #eee;
 }
 
-/* Estilo para el botón de 'Todas nuestras soluciones' */
 .all-solutions-link {
   text-align: center;
   margin-top: 60px;
@@ -231,8 +224,47 @@
   transition: all 0.3s ease;
 }
 
-.cta-button:hover {
-  background-color: #107259; /* Verde más oscuro */
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+/* --- ESTILOS RESPONSIVE --- */
+
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+  .hero .subtitle {
+    font-size: 1.5rem;
+  }
+  .value-prop {
+    font-size: 1.2rem;
+  }
+  .trust-container {
+    flex-direction: column;
+  }
+  .image-collage {
+    display: none; /* Ocultamos el collage en tablet para simplificar */
+  }
+  .products-grid {
+    grid-template-columns: 1fr 1fr; /* 2 columnas en tablet */
+  }
+}
+
+@media (max-width: 768px) {
+  .badges-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .products-grid {
+    grid-template-columns: 1fr; /* 1 columna en móvil */
+  }
+}
+
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  .hero .subtitle {
+    font-size: 1.2rem;
+  }
+  .value-prop {
+    font-size: 1.1rem;
+  }
 }
