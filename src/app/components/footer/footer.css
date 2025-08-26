@@ -16,7 +16,7 @@
   margin: 0 auto;
   padding: 0 24px;
   display: grid;
-  grid-template-columns: 2fr 1.5fr 1.5fr 1.5fr; 
+  grid-template-columns: 2fr 1.5fr 1.5fr 1.5fr;  
   gap: 40px;
 }
 
@@ -28,15 +28,9 @@
   font-weight: bold;
 }
 
-.icon {
-  height: 16px;
-  width: 16px;
-  margin-right: 8px;
-}
-
 /* Columna 1: Logo y descripción */
 .footer-col.about .footer-logo {
-  width: 150px;;
+  width: 150px;
 }
 
 .footer-col.about p {
@@ -74,6 +68,27 @@
 .social-link .icon {
   width: 20px;
   height: 20px;
-  fill: currentColor; 
+  fill: currentColor;  
   margin-right: 10px;
+}
+
+/* --- ESTILOS RESPONSIVE --- */
+@media (max-width: 992px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas en tablet */
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-container {
+    grid-template-columns: 1fr; /* 1 columna en móvil */
+    text-align: center;
+  }
+  .footer-col.about p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social-link {
+    justify-content: center;
+  }
 }

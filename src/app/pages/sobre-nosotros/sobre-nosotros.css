@@ -8,7 +8,6 @@
   margin-bottom: 80px;
 }
 
-/* --- ESTILOS EXISTENTES (NO CAMBIAN) --- */
 .about-layout {
   display: grid;
   grid-template-columns: 2fr 3fr;
@@ -16,7 +15,7 @@
   align-items: center;
 }
 .vision-title {
-  margin-top: 40px; /* Ajusta este valor si necesitas más o menos espacio */
+  margin-top: 40px;
 }
 .about-image img {
   width: 100%;
@@ -30,19 +29,6 @@
   margin-bottom: 24px;
   font-weight: 700;
 }
-
-.title-green {
-  color: #52796f;
-}
-
-.about-text p {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  color: #555;
-  margin-bottom: 16px;
-}
-
-/* --- NUEVOS ESTILOS (AÑADIDOS PARA LAS NUEVAS SECCIONES) --- */
 
 /* Modificador para el layout inverso (Misión) */
 .about-layout.layout-reverse {
@@ -58,32 +44,13 @@
   grid-row: 1 / 2;
 }
 
-/* Nuevo color de título (Misión y Visión) */
-.title-brown {
-  color: #c58a54;
-}
-
 /* Layout para secciones de texto completo (Visión) */
 .about-text-full {
   max-width: 850px;
   margin: 0 auto;
 }
 
-.about-text-full h2 {
-  font-size: 2.5rem;
-  margin-top: 0;
-  margin-bottom: 24px;
-  font-weight: 700;
-}
-
-.about-text-full p {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  color: #555;
-  margin-bottom: 16px;
-}
-
-/* --- Responsive Design (Incluye los ajustes para las nuevas secciones) --- */
+/* --- Responsive Design --- */
 @media (max-width: 992px) {
   .about-layout,
   .about-layout.layout-reverse {
