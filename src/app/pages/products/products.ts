@@ -17,8 +17,8 @@ export class ProductsComponent implements OnInit {
   allProducts: any[] = [];
   filteredProducts: any[] = [];
   
-  categorias = ['Ver Todo', 'Plantillas', 'Órtesis', 'Prótesis'];
-  partesCuerpo = ['Ver Todo', 'Superior', 'Inferior', 'Lumbar'];
+  categorias = ['Línea Blanda','Movilidad', 'Órtesis', 'Plantillas', 'Prótesis', 'Ver Todo'];
+  partesCuerpo = ['Superior', 'Inferior', 'Lumbar', 'Ver Todo'];
   
   selectedCategory: string = 'Ver Todo';
   selectedParteCuerpo: string = 'Ver Todo';
