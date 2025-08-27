@@ -14,10 +14,12 @@ export class HeaderComponent {
   isDropdownOpen = false;
 
  categories = [
-    { name: 'Ver Todo', value: 'Ver Todo' },
-    { name: 'Plantillas', value: 'Plantillas' },
+    { name: 'Línea Blanda', value: 'Línea Blanda' },
+    { name: 'Movilidad', value: 'Movilidad' },
     { name: 'Ortesis', value: 'Órtesis' },
-    { name: 'Prótesis', value: 'Prótesis' }
+    { name: 'Plantillas', value: 'Plantillas' },
+    { name: 'Prótesis', value: 'Prótesis' },
+    { name: 'Ver Todo', value: 'Ver Todo' }
   ];
 
   constructor(private eRef: ElementRef) {}

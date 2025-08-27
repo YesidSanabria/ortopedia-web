@@ -59,6 +59,13 @@
   color: var(--footer-heading);
 }
 
+.footer-col .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
 /* Estilos para el enlace de Instagram */
 .social-link {
   display: flex;
@@ -71,6 +78,7 @@
   fill: currentColor;  
   margin-right: 10px;
 }
+
 
 /* --- ESTILOS RESPONSIVE --- */
 @media (max-width: 992px) {
