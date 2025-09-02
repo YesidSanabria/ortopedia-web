@@ -66,6 +66,10 @@
   vertical-align: middle;
 }
 
+.txt{
+  margin-top: 0;
+}
+
 /* Estilos para el enlace de Instagram */
 .social-link {
   display: flex;
@@ -77,6 +81,31 @@
   height: 20px;
   fill: currentColor;  
   margin-right: 10px;
+}
+
+/* --- Estilos para el Sub-Footer --- */
+
+.sub-footer {
+  background-color: #0d5c48;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #dadada;
+}
+
+.sub-footer p {
+  margin: 0;
+}
+
+.sub-footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.sub-footer a:hover {
+  color: var(--color-accent);
 }
 
 
